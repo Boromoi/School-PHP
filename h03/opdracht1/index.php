@@ -6,7 +6,7 @@
 <body>
 <?php
     for ($i = 1; $i<=9; $i++) {
-        echo "<img src='..img/pokemon".$i.".jpg'>";
+        echo "<img src='../img/pokemon".$i.".jpg'>";
     }
 ?>
 </body>
