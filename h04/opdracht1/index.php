@@ -21,7 +21,6 @@ function deelbaardoordrie($c) {
         }
 }
 
-    $d = "";
 function stringnaarargument($d) {
     echo "Het tegenovergestelde van ".$d." is ".strrev($d);
 }
