@@ -29,10 +29,8 @@ omrekenen(12);
 "<br>";
 deelbaardoordrie(30);
 "<br>";
-stringnaarargument(boom);
+stringnaarargument("boom");
 ?>
 
 </body>
 </html>
-
-1 celsius is 33.8 fahrenheit
