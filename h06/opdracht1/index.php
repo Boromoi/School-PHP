@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost', 'root', '','school','3308'); //The Blank string is the password
+$connection = mysqli_connect("localhost", "Liam", "Sans","school","3308"); //The Blank string is the password
 
 $query = "SELECT * FROM cursist"; //You don't need a ; like you do in SQL
 $result = mysqli_query($connection,'$query');
