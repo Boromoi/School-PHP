@@ -21,28 +21,28 @@ $plonsmderin = $plonsmderin / 5;
 $bommetje = $bommetje / 5;
 
 while ($spartelkuikens > 0.9) {
-    echo "<img src='../img/zwem.png'>";
+    echo "<img src='../../h05/img/zwem.png'>";
     $spartelkuikens--;
 }
 
 echo "<br>";
 
 while ($waterbuffels > 0.9) {
-    echo "<img src='../img/zwem.png'>";
+    echo "<img src='../../h05/img/zwem.png'>";
     $waterbuffels--;
 }
 
 echo "<br>";
 
 while ($plonsmderin > 0.9) {
-    echo "<img src='../img/zwem.png'>";
+    echo "<img src='../../h05/img/zwem.png'>";
     $plonsmderin--;
 }
 
 echo "<br>";
 
 while ($bommetje > 0.9) {
-    echo "<img src='../img/zwem.png'>";
+    echo "<img src='../../h05/img/zwem.png'>";
     $bommetje--;
 }
 
