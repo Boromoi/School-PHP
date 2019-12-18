@@ -12,8 +12,10 @@ class Radioprogramma {
         return $Liedjes;
     }
 
-    function getProgramma ($Programmanaam) {
+    function getProgramma ($Programmanaam, $Omschrijving) {
         $this->Programmanaam = $Programmanaam;
-
+        $this->Omschrijving = $Omschrijving;
+        return $Omschrijving;
+        return $Programmanaam;
     }
 }
