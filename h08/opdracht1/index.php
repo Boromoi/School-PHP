@@ -1,21 +1,21 @@
 <?php
 
-class Radioprogramma {
-    private $Programmanaam = "";
-    private $Omschrijving = "";
-    private $Liedjes = [];
+    include_once('programma.php');
 
-    /* @return mixed */
+    $ditprogramma = new Radioprogramma();
+    $ditprogramma->setNaam("Dit is een programma");
+    $ditprogramma->setOmschrijving("Test Omschrijving");
 
-    function getLiedjes ($Liedjes) {
-        $this->Liedjes = $Liedjes;
-        return $Liedjes;
+    foreach ($ditprogramma->getProgramma() as $p) {
+        echo $p."<br>";
     }
 
-    function getProgramma ($Programmanaam, $Omschrijving) {
-        $this->Programmanaam = $Programmanaam;
-        $this->Omschrijving = $Omschrijving;
-        return $Omschrijving;
-        return $Programmanaam;
+    $nieuwliedje = new liedjes("titel", "stoned");
+    echo $nieuwliedje->getTitel()."<br>";
+    echo $nieuwliedje->getArtiest();
+
+    $ditprogramma->voegLiedjeToe($nieuwliedje);
+
+foreach ($ditprogramma->getLiedjes() as $liedje) {
+        echo $liedje->getTitel()." - ".$liedje->getArtiest()."<br>";
     }
-}
