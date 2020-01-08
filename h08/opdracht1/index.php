@@ -1,6 +1,7 @@
 <?php
 
     include_once('programma.php');
+    include_once('liedjes.php');
 
     $ditprogramma = new Radioprogramma();
     $ditprogramma->setNaam("Dit is een programma");
