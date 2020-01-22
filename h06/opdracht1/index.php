@@ -16,4 +16,4 @@ if ($result-> num_rows > 0) {
     echo "0 result";
 }
 
-$conn -> close();
+$conn -> close();?>

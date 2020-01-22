@@ -24,7 +24,7 @@ if ($_POST['wachtwoord'] == "doetje123" && $_POST['email'] == "piet@worldonline.
     header("Location: https://liamsroc.000webhostapp.com/h05/opdracht3/welkom.html"); /* Redirect browser */
     $randomboolean == true;
     exit();
-} else if ($_POST['wachtwoord'] == "sans" && $_POST['email'] == "timmie.de.dikke.loser@gmail.com") {
+} else if ($_POST['wachtwoord'] == "sans" && $_POST['email'] == "timmie@gmail.com") {
     header("Location: https://liamsroc.000webhostapp.com/h05/opdracht3/welkom.html"); /* Redirect browser */
     $randomboolean == true;
     exit();
